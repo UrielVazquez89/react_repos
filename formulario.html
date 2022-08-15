@@ -52,28 +52,29 @@
 
         <section id="content">
             
-    <article class="article-item article-detail">
-        <div class="image-wrap">
-            <img src="https://kaikucaffelatte.com/blog/wp-content/uploads/2020/03/shutterstock_510679489-scaled-e1648037045335.jpg" alt="Paisaje"/>
+    <h1 class="subheader">Formulario</h1>
+    <form class="mid-form">
+        <div class="form-group">
+            <label for="nombre">Nombre</label>
+            <input type="text" name="nombre"/>
         </div>
-        <h1 class="subheader">Articulo de prueba</h1>
-        <span class="date">
-            Hace 5 minutos
-         </span>
-         <p>
-            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque eget cursus sapien. Nam vulputate feugiat vehicula. Mauris laoreet bibendum tempor. Sed ut nunc id mauris rutrum rhoncus. Duis posuere euismod risus id lobortis. Vestibulum ut laoreet tortor. Nulla id urna non nibh iaculis laoreet id et leo.
-        </p>
-Integer vitae felis ut nulla feugiat euismod. Suspendisse potenti. Suspendisse hendrerit enim fermentum nunc euismod, eu semper tortor consequat. Nullam sed rutrum risus. Donec non semper nibh, ut vestibulum metus. Nam et odio augue. Nulla semper ut quam vel maximus. Curabitur pulvinar, elit sit amet ullamcorper suscipit, lorem purus vehicula mauris, et hendrerit augue nibh aliquam dolor.
-<p>
-Ut id feugiat magna. Vestibulum faucibus odio mauris, eu volutpat velit hendrerit sed. Nam lorem libero, pellentesque ut consectetur a, convallis ut arcu. Cras eget rhoncus eros. Cras quis nisl pellentesque, venenatis ligula eu, pharetra ligula. Nullam consequat, elit ac tempor sagittis, arcu ligula lacinia massa, et porta nunc neque at sem. Donec eu turpis at risus laoreet pretium vitae vestibulum arcu. Ut accumsan, arcu non scelerisque dignissim, quam libero elementum ante, gravida lobortis nunc magna nec lacus. Vivamus quis fermentum diam, eu consequat ex. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Sed eget tempor lectus, nec egestas velit. Phasellus ultrices, nisl auctor maximus auctor, augue mi congue tellus, in sodales mauris massa in augue. Phasellus quis mattis libero, a auctor neque. Aliquam blandit sapien id diam elementum, a eleifend sem sagittis. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia curae; Integer egestas dapibus blandit.
-</p>
-Fusce lacinia, sapien in viverra tempus, lacus ligula condimentum nisi, vel luctus urna urna vel lacus. Sed commodo sem ut erat condimentum aliquam. Aenean ac velit et ipsum lobortis congue. Vestibulum quis mauris felis. Curabitur eu dolor a ligula egestas facilisis. In quis mauris sit amet purus consectetur aliquet dictum ac ligula. Etiam non ex quis turpis consectetur facilisis. Nullam vitae dui imperdiet risus sollicitudin porta ut sit amet ex. Phasellus convallis mauris libero, eu pharetra nibh egestas eget.
-<p>
-Nam quis vulputate augue, id posuere lorem. Maecenas pellentesque lacus lorem, sed commodo felis porttitor sed. In ultricies metus et ipsum dictum iaculis vitae id sapien. Quisque iaculis lorem ac laoreet facilisis. Fusce fringilla sit amet lacus sit amet convallis. Curabitur nec ligula nec sem interdum consequat. Duis auctor egestas lobortis. Etiam velit erat, luctus ac nisl ut, luctus hendrerit tortor. Vestibulum vestibulum nulla a tellus scelerisque aliquet. Donec euismod euismod consequat. Sed cursus blandit purus, non malesuada est ultrices eu. Curabitur tempus semper euismod. Integer vel aliquam sem. Vestibulum dignissim at lectus quis interdum.
-         </p>
-            <div class="clearfix"></div>
-        </span>
-        </article>
+        <div class="form-group">
+            <label for="apellidos">Apellidos</label>
+            <input type="text" name="apellidos"/>
+        </div>
+        <div class="form-group">
+            <label for="bio">Biografia</label><br/>
+            <textarea name="bio"></textarea>
+        </div>
+        <div class="form-group radiobuttons">
+         <input type="radio" name="genero" value="hombre"/> Hombre
+         <input type="radio" name="genero" value="mujer"/> Mujer
+         <input type="radio" name="genero" value="otro"/> Otro
+        </div>
+        <div class="clearfix"></div>
+        <br/>
+    <input type="submit" value="Enviar" class="btn btn-success"/>
+    </form>
 
         </section>
         <aside id="sidebar">
